@@ -40,7 +40,6 @@ const Pokedex = () => {
         setPage(1);
     }
 
-
     //Pagination Logic
 
     const [page, setPage] = useState(1);

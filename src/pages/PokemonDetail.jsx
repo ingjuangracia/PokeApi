@@ -57,7 +57,6 @@ const PokemonDetail = () => {
                     }
                 </ul>
 
-
                 <h2>Movements:  </h2>
                 <p>{pokemonInfo.moves?.[0].move.name}</p>
                 <p>{pokemonInfo.moves?.[1].move.name}</p>

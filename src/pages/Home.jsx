@@ -24,6 +24,7 @@ const Home = () => {
         navigate("/pokedex")
     }
 
+    
     return (
         <div>
             <img className='img-pokedex' src="Home/pokedex.png" alt="" />

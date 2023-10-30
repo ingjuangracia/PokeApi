@@ -18,6 +18,7 @@ const ProtectedRoutes = () => {
     } else {
         return <Navigate to='/' />
     }                     // Aquí le debemos decir la ruta a la que queremos llevar
-};                        // al usuario si no está autenticado
+};                        // al usuario si no está autenticado 
+
 
 export default ProtectedRoutes;
