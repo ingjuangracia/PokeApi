@@ -49,4 +49,5 @@ const PokemonItem = ({ getPokemonUrl }) => {
     );
 };
 
+
 export default PokemonItem;

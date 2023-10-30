@@ -49,7 +49,6 @@ const Pokedex = () => {
     const maxPage = getPokemons && Math.ceil(getPokemons.length / pokePerPage);
 
 
-
     return (
         <div>
             <h2>¡ Welcome <b>{user} !, </b>Here you can find your favorite Pokemon</h2>

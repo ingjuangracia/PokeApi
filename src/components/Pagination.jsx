@@ -46,4 +46,5 @@ const Pagination = ({ page, maxPage, setPage }) => {
     );
 };
 
+
 export default Pagination;

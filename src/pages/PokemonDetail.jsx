@@ -68,7 +68,6 @@ const PokemonDetail = () => {
                 <p>{pokemonInfo.moves?.[7].move.name}</p>
                 <p>{pokemonInfo.moves?.[8].move.name}</p>
                 <p>{pokemonInfo.moves?.[9].move.name}</p>
-
             </section>
 
 

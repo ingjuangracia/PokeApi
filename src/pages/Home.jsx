@@ -23,7 +23,6 @@ const Home = () => {
         dispatch(changeUser(userName))
         navigate("/pokedex")
     }
-
     
     return (
         <div>
