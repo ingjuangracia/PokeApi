@@ -1,0 +1,95 @@
+.img-pokedex {
+    display: block;
+    margin: 100px auto;
+    width: 550px;
+    height: 80px;
+}
+
+.input-container {
+    margin-top: -70px;
+    text-align: center;
+}
+
+.input-name {
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+
+}
+
+.input-name::placeholder {
+    color: red;
+    padding-left: 15px;
+    opacity: 0.5;
+   
+    
+}
+
+.button-startName {
+    background-color: #D93F3F;
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+
+}
+
+.footer {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 123px;
+    background-color: #DD1A1A;
+
+}
+
+.footer__black {
+    width: 100%;
+    height: 40px;
+    background-color: #0C0C0C;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.footer__circle {
+    position: relative;
+    border: 10px solid #0C0C0C;
+    width: 90px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 50%;
+    left: 47%;
+    transform: translateY(-60%);
+}
+
+.footer__circle::before {
+    content: '';
+    position: absolute;
+    width: 45px;
+    aspect-ratio: 1;
+    background-color: #0C0C0C;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #FE1936;
+    line-height: 60px;
+    font-size: 45px;
+}
+
+p {
+    color: #302F2F;
+    font-size: 25px;
+
+}
