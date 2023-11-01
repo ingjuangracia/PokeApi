@@ -43,7 +43,7 @@ const PokemonDetail = () => {
                 <h2>Ability</h2>
                 <p>{pokemonInfo.abilities?.[0].ability.name}</p>
                 <p>{pokemonInfo.abilities?.[1].ability.name}</p>
-
+                
                 <h2>Stats</h2>
 
                 <ul className='poke-card__stats-container'>
@@ -56,8 +56,8 @@ const PokemonDetail = () => {
                         ))
                     }
                 </ul>
-
                 <h2>Movements:  </h2>
+
                 <p>{pokemonInfo.moves?.[0].move.name}</p>
                 <p>{pokemonInfo.moves?.[1].move.name}</p>
                 <p>{pokemonInfo.moves?.[2].move.name}</p>
